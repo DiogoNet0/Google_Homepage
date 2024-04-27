@@ -22,3 +22,66 @@ button {
 }
 
 /* From Tutorial */
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    min-width: 400px;
+}
+body,
+input,
+button {
+    font-size: 14px;
+    font-family: Roboto, arial, sans-serif;
+    color: #202124;
+}
+body {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.left-side {
+
+}
+
+.right-side{
+
+}
+
+.app-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.profile-pic {
+    width: 2rem;
+    height: 2rem;
+}
+
+.search-icon {
+    width: 1rem;
+    height: 1rem;
+}
+
+.mic,
+.camera {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
